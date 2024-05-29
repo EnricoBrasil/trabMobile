@@ -12,9 +12,8 @@ export default function App() {
           realizeMode="contain"
           />
         </View>
-
         <View>
-          <Text></Text>
+        <Text style={styles.titulo}>Sobre nós</Text>
         </View>
       </SafeAreaView>
   );
@@ -22,9 +21,16 @@ export default function App() {
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor:'',
+    backgroundColor:'#F2A7D9',
   },
   bdy: {
-    backgroundColor:'pink',
-  }
+    backgroundColor:'#F2A7D9',
+  },
+  titulo: {
+    backgroundColor:'#F2A7D9',
+    fontSize:'35px',
+    color:'white',
+    textAlign:'center',
+    marginTop:'40px',
+  },
 });
