@@ -1,0 +1,10 @@
+como usar o nosso aplicativo
+
+*****INICIANDO NO PC******
+1) após abrir o projeto no vscode pela primeira vez instale o node_modules, aperte ctrl+j para abrir o terminal, digite "npm install"
+2) após instalar o node_modules digite no terminal "npx expo start", o terminal iniciara o expo gerando um qrcode do projeto.
+
+*****INICIANDO NO CELULAR******
+1)primeiro instale o aplicativo do expo go no seu dipositivo
+2)após a intalação verifique se o dispositivo esta na mesma rede do computador com o projeto.
+3)abra a camera do seu dispositivo e aponte para o qrcode, ele irá pedir para que abra o aplicativo do expo.
